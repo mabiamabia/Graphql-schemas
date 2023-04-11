@@ -38,6 +38,19 @@ const resolvers = {
         vip: true,
       };
     },
+
+    produtoEmDestaque() {
+      return {
+        nome: "Notebook Gamer",
+        preco: 4890.89,
+        desconto: 0.5,
+      };
+    },
+
+    numerosMegaSena() {
+      //return [4, 8, 13, 27, 33, 54]
+      const crescente = (a, b) => a - b;
+    },
   },
 };
 
